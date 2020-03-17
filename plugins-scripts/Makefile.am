@@ -46,6 +46,7 @@ GL_MODULES=\
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCOPORTCHANNELMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCOPORTSECURITYMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCOPROCESSMIB.pm \
+  ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCORFMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCOSBHWENVIROMENTMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCOSBRNDMNGMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCOSBSYSMNGMIB.pm \
@@ -210,6 +211,8 @@ EXTRA_MODULES=\
   Classes/Cisco/AsyncOS/Component/RaidSubsystem.pm \
   Classes/Cisco/AsyncOS/Component/EnvironmentalSubsystem.pm \
   Classes/Cisco/AsyncOS.pm \
+  Classes/Cisco/CISCORF/Component/UnitStateSubsystem.pm \
+  Classes/Cisco/CISCORF/Component/RedundancySubsystem.pm \
   Classes/Cisco/SB/Component/MemSubsystem.pm \
   Classes/Cisco/SB/Component/CpuSubsystem.pm \
   Classes/Cisco/SB/Component/EnvironmentalSubsystem.pm \

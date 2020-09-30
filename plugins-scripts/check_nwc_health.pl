@@ -180,6 +180,12 @@ $plugin->add_mode(
     help => 'Check the status of vpns (up/down)',
 );
 $plugin->add_mode(
+    internal => 'device::vpn::sessions',
+    spec => 'vpn-sessions',
+    alias => undef,
+    help => 'Check the number of vpn sessions (users, errors)',
+);
+$plugin->add_mode(
     internal => 'device::fcinterfaces::usage',
     spec => 'fc-interface-usage',
     alias => undef,
@@ -412,6 +418,30 @@ $plugin->add_mode(
     spec => 'list-pools',
     alias => undef,
     help => 'List load balancer pools',
+);
+$plugin->add_mode(
+    internal => 'device::vip::list',
+    spec => 'list-vips',
+    alias => undef,
+    help => 'List load balancer vips',
+);
+$plugin->add_mode(
+    internal => 'device::vip::watch',
+    spec => 'watch-vips',
+    alias => undef,
+    help => 'Watch load balancer vips',
+);
+$plugin->add_mode(
+    internal => 'device::vip::watch',
+    spec => 'watch-vips',
+    alias => undef,
+    help => 'Watch load balancer vips',
+);
+$plugin->add_mode(
+    internal => 'device::vip::connect',
+    spec => 'connect-vips',
+    alias => ['connected-vips'],
+    help => 'Check connectivity with load balancer vips',
 );
 $plugin->add_mode(
     internal => 'device::licenses::validate',

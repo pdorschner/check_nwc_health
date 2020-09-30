@@ -15,6 +15,7 @@ GL_MODULES=\
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/AIRESPACEWIRELESSMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/ALARMMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/ALCATELIND1BASEMIB.pm \
+  ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/ARISTABGP4V2MIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/ARISTAENTITYSENSORMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/ARUBATCMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/ASYNCOSMAILMIB.pm \
@@ -47,6 +48,7 @@ GL_MODULES=\
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCOPORTSECURITYMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCOPROCESSMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCORFMIB.pm \
+  ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCOREMOTEACCESSMONITORMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCOSBHWENVIROMENTMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCOSBRNDMNGMIB.pm \
   ../GLPlugin/lib/Monitoring/GLPlugin/SNMP/MibsAndOids/CISCOSBSYSMNGMIB.pm \
@@ -174,6 +176,7 @@ EXTRA_MODULES=\
   Classes/Cisco/CISCOENVMONMIB/Component/PowersupplySubsystem.pm \
   Classes/Cisco/CISCOENVMONMIB/Component/VoltageSubsystem.pm \
   Classes/Cisco/CISCOENVMONMIB/Component/FanSubsystem.pm \
+  Classes/Cisco/CISCOREMOTEACCESSMONITORMIB/Component/VpnSubsystem.pm \
   Classes/Cisco/CISCOSTACKMIB/Component/StackSubsystem.pm \
   Classes/Cisco/CISCOSTACKWISEMIB/Component/StackSubsystem.pm \
   Classes/Cisco/ASA.pm \
@@ -329,6 +332,7 @@ EXTRA_MODULES=\
   Classes/F5/F5BIGIP/Component/FanSubsystem.pm \
   Classes/F5/F5BIGIP/Component/GTM.pm \
   Classes/F5/F5BIGIP/Component/HaSubsystem.pm \
+  Classes/F5/F5BIGIP/Component/VipSubsystem.pm \
   Classes/F5/F5BIGIP/Component/LTM.pm \
   Classes/F5/F5BIGIP/Component/MemSubsystem.pm \
   Classes/F5/F5BIGIP/Component/PowersupplySubsystem.pm \
@@ -415,6 +419,7 @@ EXTRA_MODULES=\
   Classes/Netgear.pm \
   Classes/Lantronix.pm \
   Classes/Lantronix/SLS.pm \
+  Classes/Arista/ARISTABGP4V2MIB/Components/PeerSubsystem.pm \
   Classes/Arista/Component/EnvironmentalSubsystem.pm \
   Classes/Arista.pm \
   Classes/Riverbed/SteelheadEX/Component/EnvironmentalSubsystem.pm \
